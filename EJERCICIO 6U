@@ -1,0 +1,22 @@
+//EJERCICIO 6:
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int N, A, B;
+    cin>>N>>A>>B;
+    int 5a=0, 5b=0;
+    for(i=1; i<=A; i++) {
+        for(i=1; i<=B;i++)
+        5a+=i;
+        5b+=i;
+        While(N<1000){
+         if(N%2==0)
+          N+=5a;
+         else
+         N+=5b;
+         }
+      }
+    cout<<N<<endl;
+    return 0;
+}
