@@ -1,0 +1,39 @@
+//EJERCICIO 4:
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int a, b, c;
+    cout<<"Ingrese a: "<<endl;
+    cin>>a;
+    cout<<"Ingrese b: "<<endl;
+    cin>>b;
+    cout<<"Ingrese c: "<<endl;
+    cin>>c;
+    if(a<b) {
+        cout<<"True ";
+    } else {
+        cout<<"False ";
+    }
+    if(a<c) {
+        cout<<"True ";
+    } else {
+        cout<<"False ";
+    }
+    if(a==b) {
+        cout<<"True ";
+    } else {
+        cout<<"False ";
+    }
+    if(a!=c) {
+        cout<<"True ";
+    } else {
+        cout<<"False ";
+    }
+    if(c<=b) {
+        cout<<"True ";
+    } else {
+        cout<<"False ";
+    }
+    return 0;
+}
