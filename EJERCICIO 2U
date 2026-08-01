@@ -1,0 +1,20 @@
+//EJERCICIO 2:
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int I, II, III, IV;
+    int X, Y;
+    cout<<"Ingrese X y Y: "<<endl;
+    cin>>X>>Y;
+    if(X>0 and Y>0) {
+        cout<<"I";
+    } if(X<0 and Y>0) {
+        cout<<"II";
+    } if(X<0 and Y<0) {
+        cout<<"III";
+    } if(X>0 and Y<0) {
+        cout<<"IV";
+    }
+    return 0;
+} 
