@@ -1,0 +1,29 @@
+//EJERCICIO 3:
+#include <iostream>
+using namespace std;
+int main () {
+    int a, b, c, D, N, S, G, l;
+    float suma, res, R;
+    cout<<"Ingrese a: "<<endl;
+    cin>>a;
+    cout<<"Ingrese b: "<<endl;
+    cin>>b;
+    suma=3+b;
+    R=2*a+suma;
+    D=a-1;
+    N=7*D+b;
+    S=D-b;
+    G=D*b;
+    if(a+b==5) {
+        res=suma;
+        cout<<R;
+    } else {
+        cout<<D;
+        if(N/2) {
+            cout<<S;
+        } else {
+            cout<<G;
+        }
+    }
+    return 0;
+}
