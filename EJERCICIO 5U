@@ -1,0 +1,16 @@
+//EJERCICIO 5:
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int n,m, A, D;
+    cout<<"Ingrese un numero menor de 50 en las decenas: "<<endl;
+    cin>>n;
+    cout<<"Ingrese un numero mayor o igual a 50 en las decenas: "<<endl;
+    cin>>m;
+    A=(N/100)*100:
+    D=(m/100)*100+100;
+    cout<<"Respuesta A: "<<A<<endl;
+    cout<<"Respuesta D: "<<D;
+    return 0;
+}
