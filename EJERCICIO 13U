@@ -1,0 +1,10 @@
+//EJERCICIO 13: 
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int n=1234;
+    A=(n/10)*100+5*10+(n%10);
+    cout<<"El resultado es: "<<A;
+    return 0;
+}
