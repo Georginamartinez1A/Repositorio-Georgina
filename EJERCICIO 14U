@@ -1,0 +1,19 @@
+//EJERCICIO 14:
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int a, b, C, r;
+    cout<<"Ingrese a y b: ";
+    cin>>a>>b;
+    C=a/b;
+    r=a%b;
+    if(r==0) {
+        cout<< C <<endl;
+    } else if(C==0) {
+        cout<< r <<"/"<<b<<endl;
+    } else {
+        cout<<C<<" "<<r<<"/"<<b<<endl;
+    }
+    return 0;
+}
